@@ -27,9 +27,8 @@
   console.log(usaPopulition);
 
 
-let percentageOfWorld2=  function(population) {
-  return (population / 7900) * 100;
-}
+let percentageOfWorld2= population=>(population / 7900) * 100;
+
 
 console.log (percentageOfWorld2(9.053));
 console.log (percentageOfWorld2(60.36));
