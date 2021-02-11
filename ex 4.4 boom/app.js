@@ -13,14 +13,14 @@ let n = (Math.random() * 99) + 1;
 // for (i = 1; i <= n; i++) {
 //   console.log(i);
 
-//   if (i % 7 === 0) {
-//     console.log("boom");
-//   } else if (i.toString().includes('7')) {
-//     console.log("BOOM BOOM");
-//   } else {
-//     console.log(i);
-//   }
-// }
+  if (i % 7 === 0) {
+    console.log("boom");
+  } else if (i.toString().includes('7')) {
+    console.log("BOOM BOOM");
+  } else {
+    console.log(i);
+  }
+}
 
 // or other way 
 
