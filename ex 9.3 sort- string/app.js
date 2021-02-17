@@ -20,19 +20,5 @@ foodB.sort( (a, b) => a.localeCompare(b, {ignorePunctuation: true}));
 const words = ["apple", "supercalifragilisticexpialidocious",
 "hi", "zoo"];
 
-
-
-let strSplit = words.split(' ');
-let maxWord = 0;
-let longestW = '';
-
-
-
-for (let i = 0; i < strSplit.length; i++) {
-    if (strSplit[i].length > maxWord) {
-        maxWord = strSplit[i].length
-        longestW = strSplit[i];
-    }
-}
-
-console.log(longestW);
+words.sort( (a, b) =>b.length-a.length);
+console.log(words)
