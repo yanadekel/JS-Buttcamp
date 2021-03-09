@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\.."
+		},
+		{
+			"path": "..\\..\\..\\ex chacknoris"
+		},
+		{
+			"path": "..\\..\\..\\..\\MainCraft-2D-game"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "MainCraft-2D-game"
+	}
+}

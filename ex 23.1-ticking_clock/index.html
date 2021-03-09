@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+  #clock {
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: coral;
+    flex-direction: row;
+    border: 1px solid black;
+    align-items: center;
+  }
+
+  .btn {
+    display: flex;
+    justify-content: space-evenly;
+  }
+</style>
+
+<body>
+  <h1>Real-Time Web Clock</h1>
+
+  <div id="clock">
+  </div>
+
+  <script>
+
+    let clock = document.querySelector("#clock");
+    console.log(clock);
+
+    function showTime() {
+      let d = new Date();
+      let milli = d.getMilliseconds()
+      let hour = d.getHours();
+      let min = d.getMinutes();
+      let sec = d.getSeconds();
+      console.log(d);
+
+      clock.innerHTML = hour + ":" + min + ":" + sec + " :" + milli + " ";
+    }
+
+    setInterval(showTime, 1000);
+
+  </script>
+</body>
+
+</html>

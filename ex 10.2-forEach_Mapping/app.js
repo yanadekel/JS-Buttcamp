@@ -157,8 +157,7 @@ let capitalize = (str) => {
 // keep it dry)
 
 let swapCase = (str) => {
-  return str
-    .split(" ")
+  return str.split(" ")
     .map((j, i) => {
       if (i % 2 === 0) {
         return capitalize(j);

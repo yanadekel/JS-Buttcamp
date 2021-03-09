@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<style>
+.main-content {
+ display: flex; 
+ align-items: center;
+ justify-content: center;
+ flex-direction:column;
+ 
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color:chocolate ;
+  color:white;
+  padding: 16px;
+  transition-duration:0.4s ;
+  display: block;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+  
+}
+
+.text-box {
+  background-color: darkgoldenrod;
+  color:black;
+  width:100px;
+  height:100px;
+  border:1px solid chocolate;
+}
+
+.hello {
+  text-align: center;
+  padding:20px;
+}
+</style>
+
+<body>
+  <main class="main-content">
+    <button class=" btn plus">+</button>
+    <div class="text-box">
+      <p class="hello">HELLO!</p>
+    </div>
+    <button class="btn minus">-</button>
+  </main>
+  <script src="app.js"></script>
+</body>
+
+</html>

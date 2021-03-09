@@ -25,14 +25,13 @@ let myArr = ["boo", "doooo", "hoo", "ro"];
 
 
 let strArr = (arr) => {
-  let i=0;
-  let newNumArr =[];
-while (i<arr.length) {
-  newNumArr.push(arr[i].length);
-  i++;
-
-}
-return newNumArr;
+  let i = 0;
+  let newNumArr = [];
+  while (i < arr.length) {
+    newNumArr.push(arr[i].length);
+    i++;
+  }
+  return newNumArr;
 }
 
 
